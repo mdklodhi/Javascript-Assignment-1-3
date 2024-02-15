@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.S-3 Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1><u> Calculator </u></h1>
+
+
+</body>
+</html>
+<script>
+    
+var num1 = +prompt("Enter the first number:");
+var num2 = +prompt("Enter the second number:");
+var operator = prompt("Enter the operation (+, -, *, /, %):");
+
+var result;
+if (operator === "+")
+{
+  result = num1 + num2;
+  document.write("The result of"+ " "+  num1 +" " + operator + " " + num2 + " is " + result);
+} 
+else if (operator === "-") 
+{
+  result = num1 - num2;
+  document.write("The result of"+ " "+  num1 +" " + operator + " " + num2 + " is " + result);
+} 
+else if (operator === "*") 
+{
+  result = num1 * num2;
+  document.write("The result of"+ + " "+ num1 +" " + operator + " " + num2 + " is " + result);
+}
+else if (operator === "/") 
+{
+  result = num1 / num2;
+  document.write("The result of"+ + " "+ num1 +" " + operator + " " + num2 + " is " + result);
+} 
+else if (operator === "%") 
+{
+  result = num1 % num2;
+  document.write("The result of"+ + " "+ num1 +" " + operator + " " + num2 + " is " + result);
+} 
+else 
+{
+  document.write("Invalid operation.");
+}
+
+</script>
